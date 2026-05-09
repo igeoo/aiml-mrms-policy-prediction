@@ -1,0 +1,9 @@
+Package generated in ChatGPT environment.
+
+The full pipeline is intentionally not executed here because the default 1,000-permutation LOO-CV test may be slow in constrained environments.
+
+For a quick local smoke test:
+python scripts/05_run_full_pipeline.py --permutations 10
+
+For final manuscript verification:
+python scripts/05_run_full_pipeline.py --permutations 1000
