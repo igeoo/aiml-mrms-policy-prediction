@@ -4,13 +4,13 @@ AIML-MRMS POLICY PREDICTION FRAMEWORK — EXECUTION LOG
 
 EXECUTION ENVIRONMENT
 ----------------------------------------
-Date/Time (local): 2026-05-24 19:46:17
+Date/Time (local): 2026-05-25 09:23:24
 Python version:    3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]
 Platform:          Windows-11-10.0.26200-SP0
 Architecture:      AMD64
 Node:              Martin
 Working dir:       C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package
-Permutations:      100
+Permutations:      1000
 Random seed:       42 (fixed in all LinearSVC calls)
 
 PACKAGE VERSIONS
@@ -31,48 +31,48 @@ PIPELINE EXECUTION
 
 ============================================================
 SCRIPT: 01_run_svm_validation.py
-CMD:    C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\venv\Scripts\python.exe C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\scripts\01_run_svm_validation.py --permutations 100
-START:  2026-05-24T19:46:18.395067
+CMD:    C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\venv\Scripts\python.exe C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\scripts\01_run_svm_validation.py --permutations 1000
+START:  2026-05-25T09:23:25.052642
 ============================================================
 [STDOUT]
 SVM validation complete.
-END:    2026-05-24T19:59:01.305438
+END:    2026-05-25T11:50:17.891909
 STATUS: SUCCESS
 
 ============================================================
 SCRIPT: 02_run_mcdm_topsis.py
 CMD:    C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\venv\Scripts\python.exe C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\scripts\02_run_mcdm_topsis.py
-START:  2026-05-24T19:59:01.305438
+START:  2026-05-25T11:50:17.902782
 ============================================================
 [STDOUT]
 MCDM/TOPSIS complete.
-END:    2026-05-24T19:59:37.125635
+END:    2026-05-25T11:50:35.401310
 STATUS: SUCCESS
 
 ============================================================
 SCRIPT: 03_run_pci_rpci.py
 CMD:    C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\venv\Scripts\python.exe C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\scripts\03_run_pci_rpci.py
-START:  2026-05-24T19:59:37.125635
+START:  2026-05-25T11:50:35.401310
 ============================================================
 [STDOUT]
 PCI/RPCI complete.
-END:    2026-05-24T19:59:44.195970
+END:    2026-05-25T11:50:39.277631
 STATUS: SUCCESS
 
 ============================================================
 SCRIPT: 04_run_investment_optimisation.py
 CMD:    C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\venv\Scripts\python.exe C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\scripts\04_run_investment_optimisation.py
-START:  2026-05-24T19:59:44.195970
+START:  2026-05-25T11:50:39.277631
 ============================================================
 [STDOUT]
 Investment optimisation complete.
-END:    2026-05-24T19:59:53.492619
+END:    2026-05-25T11:50:48.321534
 STATUS: SUCCESS
 
 ============================================================
 SCRIPT: 05_run_full_pipeline.py
-CMD:    C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\venv\Scripts\python.exe C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\scripts\05_run_full_pipeline.py --permutations 100
-START:  2026-05-24T19:59:53.492619
+CMD:    C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\venv\Scripts\python.exe C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\scripts\05_run_full_pipeline.py --permutations 1000
+START:  2026-05-25T11:50:48.323048
 ============================================================
 [STDOUT]
 SVM validation complete.
@@ -82,13 +82,13 @@ Investment optimisation complete.
 Executing sub-pipelines 01-04...
 Executing final sensitivity analysis...
 Full AIML-MRMS pipeline complete. Outputs written to results/tables/.
-END:    2026-05-24T20:19:22.847746
+END:    2026-05-25T12:55:04.929681
 STATUS: SUCCESS
 
 ============================================================
 SCRIPT: 06_validate_manuscript_match.py
 CMD:    C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\venv\Scripts\python.exe C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\scripts\06_validate_manuscript_match.py
-START:  2026-05-24T20:19:22.849744
+START:  2026-05-25T12:55:04.930219
 ============================================================
 [STDOUT]
 =======================================================================
@@ -158,7 +158,7 @@ START:  2026-05-24T20:19:22.849744
     Delta   | Manuscript: 0.017 | Computed: 0.017 | Diff: +0.000
 
 Validation complete. Report written to C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\results\tables\manuscript_validation_report.txt
-END:    2026-05-24T20:19:25.144514
+END:    2026-05-25T12:55:05.533589
 STATUS: SUCCESS
 
 ============================================================
@@ -172,6 +172,6 @@ EXECUTION SUMMARY
   [PASS]  06_validate_manuscript_match.py
 
 Scripts passed:    6/6
-Total wall time:   0:33:07.156990
+Total wall time:   3:31:40.836148
 Log written to:    C:\Users\USER\Documents\python_codes\super_project\AIML_MRMS\aiml_mrms_github_package\aiml_mrms_github_package\RUN_LOG.txt
 ============================================================
