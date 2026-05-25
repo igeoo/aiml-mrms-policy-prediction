@@ -1,0 +1,65 @@
+=======================================================================
+              AIML-MRMS Manuscript Validation Report
+=======================================================================
+
+--- 1. Table 5: SVM LOO-CV Metrics ---
+  Accuracy (Manuscript: 1.000, Computed: 0.938)
+  Balanced Accuracy (Manuscript: 1.000, Computed: 0.955)
+  F1-score (Manuscript: 1.000, Computed: 0.909)
+  ROC-AUC (Manuscript: 0.727, Computed: 0.945) - [NOTE: Code achieves perfect separation, resulting in 1.000]
+
+--- 2. Table 6: SVM Feature Weights ---
+  control_of_corruption     | Manuscript: 0.1982 | Computed: 0.0215 | Diff: -0.1767
+  government_effectiveness  | Manuscript: 0.1971 | Computed: 0.1820 | Diff: -0.0151
+  fraser_ppi                | Manuscript: 0.1745 | Computed: 0.2267 | Diff: +0.0522
+  rule_of_law               | Manuscript: 0.1504 | Computed: 0.2547 | Diff: +0.1043
+  regulatory_quality        | Manuscript: 0.1471 | Computed: 0.2887 | Diff: +0.1416
+  political_stability       | Manuscript: 0.1328 | Computed: 0.0264 | Diff: -0.1064
+
+--- 3. Table 7: TOPSIS Closeness Coefficients (C_i) ---
+  NGA NG-A (Cycle 1) | Manuscript: 0.393 | Computed: 0.392 | Diff: -0.001
+  NGA NG-A (Cycle 3) | Manuscript: 0.388 | Computed: 0.425 | Diff: +0.037
+  NGA NG-B (Cycle 1) | Manuscript: 0.716 | Computed: 0.716 | Diff: +0.000
+  NGA NG-B (Cycle 3) | Manuscript: 0.751 | Computed: 0.832 | Diff: +0.081
+  NGA NG-C (Cycle 1) | Manuscript: 0.284 | Computed: 0.284 | Diff: -0.000
+  NGA NG-C (Cycle 3) | Manuscript: 0.249 | Computed: 0.168 | Diff: -0.081
+  ZAF ZA-A (Cycle 1) | Manuscript: 0.475 | Computed: 0.475 | Diff: -0.000
+  ZAF ZA-A (Cycle 3) | Manuscript: 0.414 | Computed: 0.508 | Diff: +0.094
+  ZAF ZA-B (Cycle 1) | Manuscript: 0.734 | Computed: 0.734 | Diff: +0.000
+  ZAF ZA-B (Cycle 3) | Manuscript: 0.768 | Computed: 0.844 | Diff: +0.076
+  ZAF ZA-C (Cycle 1) | Manuscript: 0.215 | Computed: 0.214 | Diff: -0.001
+  ZAF ZA-C (Cycle 3) | Manuscript: 0.242 | Computed: 0.123 | Diff: -0.119
+
+--- 4. Table 8: PCI/RPCI Scenarios (Cycle 3 vs Baseline Cycle 1) ---
+  NGA | Standalone MCDM             
+    PCI C3  | Manuscript: 0.090 | Computed: 0.121 | Diff: +0.031
+    RPCI C3 | Manuscript: 0.064 | Computed: 0.094 | Diff: +0.030
+    Delta   | Manuscript: 0.006 | Computed: 0.006 | Diff: +0.000
+  NGA | Standalone AI               
+    PCI C3  | Manuscript: 0.092 | Computed: 0.124 | Diff: +0.032
+    RPCI C3 | Manuscript: 0.066 | Computed: 0.097 | Diff: +0.031
+    Delta   | Manuscript: 0.009 | Computed: 0.009 | Diff: +0.000
+  NGA | Static AI+MCDM (no feedback)
+    PCI C3  | Manuscript: 0.102 | Computed: 0.134 | Diff: +0.032
+    RPCI C3 | Manuscript: 0.075 | Computed: 0.105 | Diff: +0.030
+    Delta   | Manuscript: 0.019 | Computed: 0.019 | Diff: +0.000
+  NGA | AIML-MRMS (full adaptive)   
+    PCI C3  | Manuscript: 0.113 | Computed: 0.145 | Diff: +0.032
+    RPCI C3 | Manuscript: 0.084 | Computed: 0.115 | Diff: +0.031
+    Delta   | Manuscript: 0.030 | Computed: 0.030 | Diff: +0.000
+  ZAF | Standalone MCDM             
+    PCI C3  | Manuscript: 0.534 | Computed: 0.587 | Diff: +0.053
+    RPCI C3 | Manuscript: 0.514 | Computed: 0.516 | Diff: +0.002
+    Delta   | Manuscript: 0.004 | Computed: 0.004 | Diff: +0.000
+  ZAF | Standalone AI               
+    PCI C3  | Manuscript: 0.536 | Computed: 0.589 | Diff: +0.053
+    RPCI C3 | Manuscript: 0.516 | Computed: 0.518 | Diff: +0.002
+    Delta   | Manuscript: 0.006 | Computed: 0.006 | Diff: +0.000
+  ZAF | Static AI+MCDM (no feedback)
+    PCI C3  | Manuscript: 0.539 | Computed: 0.592 | Diff: +0.053
+    RPCI C3 | Manuscript: 0.519 | Computed: 0.521 | Diff: +0.002
+    Delta   | Manuscript: 0.009 | Computed: 0.009 | Diff: +0.000
+  ZAF | AIML-MRMS (full adaptive)   
+    PCI C3  | Manuscript: 0.547 | Computed: 0.600 | Diff: +0.053
+    RPCI C3 | Manuscript: 0.527 | Computed: 0.528 | Diff: +0.001
+    Delta   | Manuscript: 0.017 | Computed: 0.017 | Diff: +0.000

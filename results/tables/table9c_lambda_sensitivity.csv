@@ -1,31 +1,31 @@
 country_iso3,project_id,project_name,lambda,allocation,objective_value,optimisation_status
-NGA,NG-B,FDI-compliant open-pit,0.05,1.0,79.58847713318991,optimal
-NGA,NG-A,Artisanal scale-up,0.05,-0.0,79.58847713318991,optimal
-NGA,NG-C,Greenfield high regulatory risk,0.05,0.0,79.58847713318991,optimal
-ZAF,ZA-B,ESG-certified open-cast,0.05,1.0,81.5177313576592,optimal
-ZAF,ZA-A,Deep-shaft expansion,0.05,-0.0,81.5177313576592,optimal
-ZAF,ZA-C,Junior miner greenfield,0.05,0.0,81.5177313576592,optimal
-NGA,NG-B,FDI-compliant open-pit,0.1,1.0,78.68847713318992,optimal
-NGA,NG-A,Artisanal scale-up,0.1,-0.0,78.68847713318992,optimal
-NGA,NG-C,Greenfield high regulatory risk,0.1,0.0,78.68847713318992,optimal
-ZAF,ZA-B,ESG-certified open-cast,0.1,1.0,81.0177313576592,optimal
-ZAF,ZA-A,Deep-shaft expansion,0.1,-0.0,81.0177313576592,optimal
-ZAF,ZA-C,Junior miner greenfield,0.1,0.0,81.0177313576592,optimal
-NGA,NG-B,FDI-compliant open-pit,0.15,1.0,77.78847713318991,optimal
-NGA,NG-A,Artisanal scale-up,0.15,-0.0,77.78847713318991,optimal
-NGA,NG-C,Greenfield high regulatory risk,0.15,0.0,77.78847713318991,optimal
-ZAF,ZA-B,ESG-certified open-cast,0.15,1.0,80.5177313576592,optimal
-ZAF,ZA-A,Deep-shaft expansion,0.15,-0.0,80.5177313576592,optimal
-ZAF,ZA-C,Junior miner greenfield,0.15,0.0,80.5177313576592,optimal
-NGA,NG-B,FDI-compliant open-pit,0.2,1.0,76.88847713318992,optimal
-NGA,NG-A,Artisanal scale-up,0.2,-0.0,76.88847713318992,optimal
-NGA,NG-C,Greenfield high regulatory risk,0.2,0.0,76.88847713318992,optimal
-ZAF,ZA-B,ESG-certified open-cast,0.2,1.0,80.0177313576592,optimal
-ZAF,ZA-A,Deep-shaft expansion,0.2,-0.0,80.0177313576592,optimal
-ZAF,ZA-C,Junior miner greenfield,0.2,0.0,80.0177313576592,optimal
-NGA,NG-B,FDI-compliant open-pit,0.25,1.0,75.98847713318992,optimal
-NGA,NG-A,Artisanal scale-up,0.25,-0.0,75.98847713318992,optimal
-NGA,NG-C,Greenfield high regulatory risk,0.25,0.0,75.98847713318992,optimal
-ZAF,ZA-B,ESG-certified open-cast,0.25,1.0,79.5177313576592,optimal
-ZAF,ZA-A,Deep-shaft expansion,0.25,-0.0,79.5177313576592,optimal
-ZAF,ZA-C,Junior miner greenfield,0.25,0.0,79.5177313576592,optimal
+NGA,NG-B,FDI-compliant open-pit,0.05,1.0,78.99692349153094,optimal
+NGA,NG-A,Artisanal scale-up,0.05,-0.0,78.99692349153094,optimal
+NGA,NG-C,Greenfield high regulatory risk,0.05,0.0,78.99692349153094,optimal
+ZAF,ZA-B,ESG-certified open-cast,0.05,1.0,80.89557578515365,optimal
+ZAF,ZA-A,Deep-shaft expansion,0.05,-0.0,80.89557578515365,optimal
+ZAF,ZA-C,Junior miner greenfield,0.05,0.0,80.89557578515365,optimal
+NGA,NG-B,FDI-compliant open-pit,0.1,1.0,78.09692349153094,optimal
+NGA,NG-A,Artisanal scale-up,0.1,-0.0,78.09692349153094,optimal
+NGA,NG-C,Greenfield high regulatory risk,0.1,0.0,78.09692349153094,optimal
+ZAF,ZA-B,ESG-certified open-cast,0.1,1.0,80.39557578515365,optimal
+ZAF,ZA-A,Deep-shaft expansion,0.1,-0.0,80.39557578515365,optimal
+ZAF,ZA-C,Junior miner greenfield,0.1,0.0,80.39557578515365,optimal
+NGA,NG-B,FDI-compliant open-pit,0.15,1.0,77.19692349153094,optimal
+NGA,NG-A,Artisanal scale-up,0.15,-0.0,77.19692349153094,optimal
+NGA,NG-C,Greenfield high regulatory risk,0.15,0.0,77.19692349153094,optimal
+ZAF,ZA-B,ESG-certified open-cast,0.15,1.0,79.89557578515365,optimal
+ZAF,ZA-A,Deep-shaft expansion,0.15,-0.0,79.89557578515365,optimal
+ZAF,ZA-C,Junior miner greenfield,0.15,0.0,79.89557578515365,optimal
+NGA,NG-B,FDI-compliant open-pit,0.2,1.0,76.29692349153095,optimal
+NGA,NG-A,Artisanal scale-up,0.2,-0.0,76.29692349153095,optimal
+NGA,NG-C,Greenfield high regulatory risk,0.2,0.0,76.29692349153095,optimal
+ZAF,ZA-B,ESG-certified open-cast,0.2,1.0,79.39557578515365,optimal
+ZAF,ZA-A,Deep-shaft expansion,0.2,-0.0,79.39557578515365,optimal
+ZAF,ZA-C,Junior miner greenfield,0.2,0.0,79.39557578515365,optimal
+NGA,NG-B,FDI-compliant open-pit,0.25,1.0,75.39692349153094,optimal
+NGA,NG-A,Artisanal scale-up,0.25,-0.0,75.39692349153094,optimal
+NGA,NG-C,Greenfield high regulatory risk,0.25,0.0,75.39692349153094,optimal
+ZAF,ZA-B,ESG-certified open-cast,0.25,1.0,78.89557578515365,optimal
+ZAF,ZA-A,Deep-shaft expansion,0.25,-0.0,78.89557578515365,optimal
+ZAF,ZA-C,Junior miner greenfield,0.25,0.0,78.89557578515365,optimal

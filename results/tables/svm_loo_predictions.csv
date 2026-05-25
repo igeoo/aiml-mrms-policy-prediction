@@ -1,17 +1,17 @@
 country,iso3,label,predicted_label,svm_score
-Botswana,BWA,Favourable,Favourable,0.9741039379210903
-South Africa,ZAF,Favourable,Favourable,0.6077710696735223
-Namibia,NAM,Favourable,Favourable,0.9143425153263169
-Ghana,GHA,Favourable,Favourable,0.6187008485280957
-Morocco,MAR,Favourable,Favourable,0.7154356225160337
-Nigeria,NGA,Unfavourable,Unfavourable,0.03779018727424079
-DR Congo,COD,Unfavourable,Unfavourable,0.02741356947082812
-Zambia,ZMB,Unfavourable,Unfavourable,0.30433878750135207
-Zimbabwe,ZWE,Unfavourable,Unfavourable,0.05281785363213224
-Tanzania,TZA,Unfavourable,Unfavourable,0.23423436003381543
-Mali,MLI,Unfavourable,Unfavourable,0.08092253525585417
-Burkina Faso,BFA,Unfavourable,Unfavourable,0.09788720927621068
-Guinea,GIN,Unfavourable,Unfavourable,0.0749724281373598
-Sierra Leone,SLE,Unfavourable,Unfavourable,0.1595018187267499
-Angola,AGO,Unfavourable,Unfavourable,0.0694491990073261
-Mozambique,MOZ,Unfavourable,Unfavourable,0.1417759748277149
+Botswana,BWA,Favourable,Favourable,0.9391221763960167
+"Congo, Democratic Republic of",COD,Unfavourable,Unfavourable,0.022960290396040514
+Ghana,GHA,Favourable,Favourable,0.5585399339935276
+Guinea,GIN,Unfavourable,Unfavourable,0.09998000747918946
+Mali,MLI,Unfavourable,Unfavourable,0.17050853794811688
+Mauritania,MRT,Unfavourable,Unfavourable,0.15063666428625846
+Morocco,MAR,Favourable,Favourable,0.5
+Mozambique,MOZ,Unfavourable,Unfavourable,0.12295148523764593
+Namibia,NAM,Favourable,Favourable,0.778115390089038
+Nigeria,NGA,Unfavourable,Unfavourable,0.08552936395730569
+Senegal,SEN,Unfavourable,Favourable,0.6449308450691024
+Sierra Leone,SLE,Unfavourable,Unfavourable,0.09967396429038886
+South Africa,ZAF,Favourable,Favourable,0.49219649669730936
+United Republic of Tanzania,TZA,Unfavourable,Unfavourable,0.29530910245553216
+Zambia,ZMB,Unfavourable,Unfavourable,0.3231831931387286
+Zimbabwe,ZWE,Unfavourable,Unfavourable,0.029187678814869965

@@ -1,7 +1,7 @@
 country_iso3,project_id,project_name,lambda,allocation,objective_value,optimisation_status
-NGA,NG-B,FDI-compliant open-pit,0.15,1.0,75.66343196292797,optimal
-NGA,NG-A,Artisanal scale-up,0.15,-0.0,75.66343196292797,optimal
-NGA,NG-C,Greenfield high regulatory risk,0.15,0.0,75.66343196292797,optimal
-ZAF,ZA-B,ESG-certified open-cast,0.15,1.0,78.49823950830857,optimal
-ZAF,ZA-A,Deep-shaft expansion,0.15,-0.0,78.49823950830857,optimal
-ZAF,ZA-C,Junior miner greenfield,0.15,0.0,78.49823950830857,optimal
+NGA,NG-B,FDI-compliant open-pit,0.15,1.0,80.46833023064063,optimal
+NGA,NG-A,Artisanal scale-up,0.15,-0.0,80.46833023064063,optimal
+NGA,NG-C,Greenfield high regulatory risk,0.15,0.0,80.46833023064063,optimal
+ZAF,ZA-B,ESG-certified open-cast,0.15,1.0,82.90479162668795,optimal
+ZAF,ZA-A,Deep-shaft expansion,0.15,-0.0,82.90479162668795,optimal
+ZAF,ZA-C,Junior miner greenfield,0.15,0.0,82.90479162668795,optimal

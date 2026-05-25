@@ -74,7 +74,7 @@ def permutation_test_loo_accuracy(X, y, n_permutations=1000, random_state=42):
 def linear_svc_feature_weights(X, y, C=1.0):
     model = Pipeline([
         ("scaler", StandardScaler()),
-        ("svc", LinearSVC(C=C, class_weight="balanced", dual="auto", random_state=42, max_iter=20000)),
+        ("svc", LinearSVC(C=C, class_weight="balanced", dual=False, random_state=42, max_iter=20000)),
     ])
     model.fit(X, y)
     coefs = np.abs(model.named_steps["svc"].coef_[0])

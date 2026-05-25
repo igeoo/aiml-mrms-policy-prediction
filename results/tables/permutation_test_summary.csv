@@ -1,2 +1,2 @@
 observed_accuracy,n_permutations,max_permuted_accuracy,mean_permuted_accuracy,p_value
-1.0,10,0.75,0.525,0.09090909090909091
+0.9375,100,0.8125,0.483125,0.009900990099009901

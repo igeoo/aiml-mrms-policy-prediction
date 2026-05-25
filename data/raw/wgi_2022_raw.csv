@@ -1,0 +1,86 @@
+Country Name,Country Code,Series Name,Series Code,2022 [YR2022]
+Botswana,BWA,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,61.0252289
+Botswana,BWA,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,60.2725227
+Botswana,BWA,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,84.3398245
+Botswana,BWA,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,62.5104152
+Botswana,BWA,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,62.8760173
+"Congo, Dem. Rep.",COD,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,17.2848698
+"Congo, Dem. Rep.",COD,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,17.6222884
+"Congo, Dem. Rep.",COD,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,34.3693483
+"Congo, Dem. Rep.",COD,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,34.2431387
+"Congo, Dem. Rep.",COD,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,29.755029
+Ghana,GHA,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,45.8969954
+Ghana,GHA,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,50.051445
+Ghana,GHA,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,62.6874031
+Ghana,GHA,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,52.305874
+Ghana,GHA,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,57.0014518
+Guinea,GIN,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,28.1404776
+Guinea,GIN,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,33.3576455
+Guinea,GIN,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,51.9956519
+Guinea,GIN,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,39.7137478
+Guinea,GIN,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,38.8007372
+Mali,MLI,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,30.5924906
+Mali,MLI,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,27.8906754
+Mali,MLI,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,23.7355619
+Mali,MLI,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,43.6526916
+Mali,MLI,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,39.3858925
+Mauritania,MRT,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,30.6941739
+Mauritania,MRT,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,34.2890452
+Mauritania,MRT,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,60.7821009
+Mauritania,MRT,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,39.5934434
+Mauritania,MRT,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,42.357255
+Morocco,MAR,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,37.978752
+Morocco,MAR,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,49.0068481
+Morocco,MAR,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,57.4901092
+Morocco,MAR,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,53.5824427
+Morocco,MAR,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,49.2337674
+Mozambique,MOZ,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,29.6104098
+Mozambique,MOZ,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,36.3553301
+Mozambique,MOZ,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,43.3319001
+Mozambique,MOZ,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,42.4629934
+Mozambique,MOZ,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,38.5004121
+Namibia,NAM,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,54.2668355
+Namibia,NAM,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,54.5564222
+Namibia,NAM,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,72.2767539
+Namibia,NAM,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,56.1534208
+Namibia,NAM,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,62.4508062
+Nigeria,NGA,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,23.0571866
+Nigeria,NGA,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,30.7911243
+Nigeria,NGA,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,32.5405717
+Nigeria,NGA,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,39.1494195
+Nigeria,NGA,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,39.7570843
+Senegal,SEN,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,48.1977676
+Senegal,SEN,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,53.6808016
+Senegal,SEN,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,62.4291822
+Senegal,SEN,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,50.899161
+Senegal,SEN,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,54.6305122
+Sierra Leone,SLE,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,36.6545609
+Sierra Leone,SLE,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,32.7063428
+Sierra Leone,SLE,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,61.360477
+Sierra Leone,SLE,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,39.0056536
+Sierra Leone,SLE,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,43.5295173
+South Africa,ZAF,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,44.545875
+South Africa,ZAF,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,51.3101517
+South Africa,ZAF,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,54.2056557
+South Africa,ZAF,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,53.8802608
+South Africa,ZAF,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,57.5516367
+Tanzania,TZA,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,40.5862442
+Tanzania,TZA,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,43.0330171
+Tanzania,TZA,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,57.6681456
+Tanzania,TZA,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,45.2244399
+Tanzania,TZA,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,47.5060194
+Zambia,ZMB,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,39.3922973
+Zambia,ZMB,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,39.8696364
+Zambia,ZMB,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,66.6738711
+Zambia,ZMB,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,47.6502058
+Zambia,ZMB,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,46.0981769
+Zimbabwe,ZWE,Control of Corruption - Governance score (0-100),GOV_WGI_CC.SC,23.5958483
+Zimbabwe,ZWE,Government Effectiveness - Governance score (0-100),GOV_WGI_GE.SC,29.9566706
+Zimbabwe,ZWE,Political Stability - Governance score (0-100),GOV_WGI_PV.SC,51.7832815
+Zimbabwe,ZWE,Regulatory Quality - Governance score (0-100),GOV_WGI_RQ.SC,33.8746285
+Zimbabwe,ZWE,Rule of Law - Governance score (0-100),GOV_WGI_RL.SC,34.5817467
+,,,,
+,,,,
+,,,,
+Data from database: Worldwide Governance Indicators,,,,
+Last Updated: 03/18/2026,,,,
