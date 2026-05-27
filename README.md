@@ -61,6 +61,6 @@ supplementary/                 # supplementary material index
 - UNCTAD World Investment Report 2023, Annex Table 1.
 - Optional convergent-validity sources: Transparency International CPI 2022 and UNDP HDI 2021/2022.
 
-## Important note before submission
+## Data status
 
-The included processed CSV files are schema-correct and executable. Replace any example/placeholder values with the final verified values extracted from the public sources before final journal submission.
+The processed CSV files in `data/processed/` have been generated from verified public sources using `scripts/00_build_processed_data.py`. No placeholder values remain. The raw source files (`wgi_2022_raw.csv`, `fraser_ppi_2022.csv`, `unctad_fdi_2022_clean.csv`) are included in `data/raw/` for full reproducibility. A complete end-to-end pipeline run log is available in `RUN_LOG.txt`.
