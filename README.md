@@ -267,7 +267,9 @@ Key notes on numerical differences:
 
 ## Supplementary material
 
-Supplementary sections referenced in the manuscript correspond to the following repository resources:
+The complete compiled supplementary document (including narratives, corrected tables, and full formatting) can be found at: [`supplementary/AIML_MRMS_Supplementary_Material.docx`](supplementary/AIML_MRMS_Supplementary_Material.docx).
+
+Supplementary sections referenced in the manuscript also correspond to the following raw repository resources:
 
 | Section | Content | Location |
 |---|---|---|
