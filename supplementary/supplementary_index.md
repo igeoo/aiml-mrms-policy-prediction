@@ -1,5 +1,15 @@
 # Supplementary material index
 
+## Current supplementary document
+
+- `AIML_MRMS_Supplementary_Material_CORRECTED_v1_1_20260703.docx`
+
+This corrected v1.1 supplementary document supports the IJSE-reframed
+manuscript pathway. It retains corrected SVM validation, feature-weight,
+TOPSIS, baseline PCI/RPCI diagnostic, and reproducibility evidence. The
+former numerical Table 8/9 cross-configuration delta-PCI benchmark is
+withdrawn and should not be used as performance-superiority evidence.
+
 Suggested organisation:
 - S1: Data provenance and extraction protocol.
 - S2: Computational validation.
