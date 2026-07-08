@@ -12,3 +12,4 @@ data/raw/*.pdf
 !data/raw/README.md
 results/tables/*.tmp
 results/figures/*.tmp
+AIML-MRMS_IJSE_03072024_recent_consistency_cleaned.docx
