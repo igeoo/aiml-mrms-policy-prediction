@@ -16,8 +16,8 @@ This corrected release retains the computed SVM, feature-weight, TOPSIS, baselin
 
 The corrected IJSE support files added for the v1.1 pathway are:
 
-- `AIML_MRMS_IJSE_Final_Supporting_Documents_v1_1_20260703.zip`
-- `supplementary/AIML_MRMS_Supplementary_Material_CORRECTED_v1_1_20260703.docx`
+- `AIML_MRMS_IJSE_Final_Supporting_Documents.zip`
+- `supplementary/AIML_MRMS_Supplementary_Material.docx`
 
 The support ZIP contains the corrected computational support package, an IJSE supporting document, package manifest, and readme. The corrected supplementary DOCX is also provided separately for direct reviewer/editor access.
 
@@ -149,7 +149,7 @@ The current evidence demonstrates computational traceability and coherent proof-
 
 The current corrected supplementary document is:
 
-`supplementary/AIML_MRMS_Supplementary_Material_CORRECTED_v1_1_20260703.docx`
+`supplementary/AIML_MRMS_Supplementary_Material.docx`
 
 The supplementary index is:
 

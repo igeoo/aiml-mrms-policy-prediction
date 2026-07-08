@@ -1,9 +1,9 @@
 model,feature,weight,criterion
-logistic_regression,rule_of_law,0.244155974154709,RC
-logistic_regression,regulatory_quality,0.2769331383258068,RC
-logistic_regression,government_effectiveness,0.17298997718967274,OF
-logistic_regression,control_of_corruption,0.0672943083987954,EI
-logistic_regression,political_stability,0.004309747366915968,OF
+logistic_regression,rule_of_law,0.24415597415470897,RC
+logistic_regression,regulatory_quality,0.27693313832580674,RC
+logistic_regression,government_effectiveness,0.17298997718967277,OF
+logistic_regression,control_of_corruption,0.06729430839879538,EI
+logistic_regression,political_stability,0.004309747366915984,OF
 logistic_regression,fraser_ppi,0.2343168545641001,EV
 random_forest,rule_of_law,0.215184442922867,RC
 random_forest,regulatory_quality,0.31771300478649817,RC

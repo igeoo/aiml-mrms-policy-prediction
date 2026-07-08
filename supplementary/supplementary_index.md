@@ -2,7 +2,7 @@
 
 ## Current supplementary document
 
-- `AIML_MRMS_Supplementary_Material_CORRECTED_v1_1_20260703.docx`
+- `AIML_MRMS_Supplementary_Material.docx`
 
 This corrected v1.1 supplementary document supports the IJSE-reframed
 manuscript pathway. It retains corrected SVM validation, feature-weight,
