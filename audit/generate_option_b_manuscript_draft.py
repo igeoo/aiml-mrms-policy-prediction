@@ -20,7 +20,7 @@ from docx.shared import Inches, Pt
 ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parents[1]
 SOURCE = ROOT / "AIML-MRMS_IJSE_03072024_recent_consistency_cleaned.docx"
-OUTPUT = WORKSPACE / "output" / "doc" / "AIML_MRMS_Option_B_Revision_Draft_v2.docx"
+OUTPUT = WORKSPACE / "output" / "doc" / "AIML_MRMS_Option_B_Revision_Draft_v3.docx"
 
 
 def latest_option_b_dir() -> Path:
@@ -100,6 +100,7 @@ def main() -> None:
         139: "The evidence therefore supports a bounded conclusion: the AHP-SVM integration produces transparent and reproducible changes in criterion weights, PCI/RPCI, and rankings under stated parameter choices. The significance of those changes depends on the governance decision context and should be assessed alongside the decomposition and robustness results.",
         140: "AIML-MRMS should be interpreted as a proposed architecture with an implemented and tested weighting-sensitivity component, not as validated evidence of numerical dominance over all baseline configurations.",
         117: "The effect of alpha is explored further in Section 6.6.2. Lower alpha values give the fixed aggregate SVM signal greater influence at each update; higher alpha values preserve more of the expert-weight prior. The results are reported as a sensitivity analysis, not a convergence result.",
+        122: "Across the two simulated project subsets, the stated Cycle 3 weight state assigns higher TOPSIS closeness to projects with stronger regulatory-compliance profiles. This is a scenario-specific consequence of the project inputs and fixed weight state; it is not external performance validation or evidence of architecture superiority.",
         151: "Sensitivity analysis was conducted for alpha and fixed update count. Table 9 reports the resulting criterion weights, mean absolute score changes relative to the base-AHP state, and rank correlations relative to that state.",
         152: "Across the sensitivity grid, alpha controls the rate at which the fixed weight state moves toward the aggregate SVM signal. The reported rank correlations and score movements provide a reproducible robustness assessment. They are proof-of-concept sensitivity results, not a convergence test or an externally validated policy-performance gain.",
         154: "The proof-of-concept demonstration uses real, publicly retrievable governance and investment datasets, and reported calculations are reproducible from the cited public sources. Four limitations require explicit acknowledgement. First, the sample size (n=16) limits statistical generalisability. Second, the project-level TOPSIS scores are simulated governance-derived scenarios rather than operational mining-project observations. Third, PCI/RPCI are constructed from governance indicators and are internal indicators rather than independent outcome validation. Fourth, the Table 8/9 analysis uses one aggregate SVM-derived signal and fixed applications of the blending rule; it does not feed TOPSIS results, investment allocations, observed outcomes, or new annual data back into the weights. The findings therefore demonstrate computational reproducibility and weighting sensitivity, not empirical superiority or an evaluated closed feedback loop.",
