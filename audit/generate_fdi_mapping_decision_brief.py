@@ -11,7 +11,7 @@ from docx.shared import Inches, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT.parents[1]
-OUTPUT = WORKSPACE / "output" / "doc" / "AIML_MRMS_FDI_to_EV_Mapping_Decision_Brief.docx"
+OUTPUT = WORKSPACE / "output" / "doc" / "AIML_MRMS_FDI_to_EV_Mapping_Decision_Brief_Revised.docx"
 
 
 BLUE = RGBColor(31, 78, 121)
@@ -104,11 +104,19 @@ def main() -> None:
         doc,
         ["Version", "What it offers", "Recalculation", "Principal advantage", "Principal risk"],
         [
-            ["A. Direct proxy", "Six-dimension PCI with EV assigned to FDI", "None", "Already implemented, transparent and reproducible", "FDI alone may be considered too narrow a proxy for EV"],
-            ["B. Weighted split", "Six-dimension PCI with EV divided between FDI and investment-climate indicators", "Full Tables 8-9", "Represents realised investment and enabling governance together", "Overlapping construct weights and a 50/50 split require justification"],
-            ["C. Governance-only", "Five-dimension weighted PCI; FDI reported separately", "Full Tables 8-9 plus FDI check", "Avoids treating FDI as EV", "Changes the PCI construct and removes EV from weighted scoring"],
+            ["A. Direct proxy (fallback)", "Six-dimension PCI with EV assigned to FDI", "None", "Already implemented, transparent and reproducible", "FDI alone may be considered too narrow a proxy for EV"],
+            ["B. Weighted split (not recommended)", "Six-dimension PCI with EV divided between FDI and investment-climate indicators", "Full Tables 8-9", "Represents realised investment and enabling governance together", "Unsupported split and overlapping construct weights may appear reverse-engineered"],
+            ["C. Governance-only (preferred)", "Five-dimension weighted PCI; FDI reported separately", "Full Tables 8-9 plus FDI check", "Removes the proxy assumption and separates governance from investment flow", "Changes the PCI construct and requires explicit separation of country- and project-level roles"],
         ],
         font_size=7,
+    )
+
+    doc.add_heading("Assessment in light of the review history", level=1)
+    doc.add_paragraph(
+        "The recommendation should be driven by total exposure to another methodological challenge, not by immediate implementation effort. Version A is mathematically coherent, but it retains a contestable one-to-one proxy assumption: the full EV weight is carried by a single FDI indicator. Given the manuscript's history of reviewers identifying unstated or weakly justified assumptions, preserving that exposure merely because the current tables already exist is not the strongest submission strategy."
+    )
+    doc.add_paragraph(
+        "Version B does not resolve the problem cleanly. Without theory, expert elicitation, or empirical calibration supporting the 50/50 allocation, it introduces an additional arbitrary parameter and overlapping criterion contributions. Version C is therefore preferred: it removes the proxy assumption, defines PCI/RPCI as a governance-coherence measure, preserves EV for project-level evaluation, and reports FDI separately as an observed investment-flow indicator."
     )
 
     doc.add_heading("Current verified implementation", level=1)
@@ -156,7 +164,7 @@ def main() -> None:
     add_labelled_paragraph(doc, "Methodological definition", "Half of EV is assigned to FDI. The remaining half is divided equally between Regulatory Quality and Government Effectiveness, in addition to their existing RC and OF contributions.")
     add_labelled_paragraph(doc, "What this version offers", "A broader operationalisation of EV that reflects both realised capital flow and two governance conditions associated with investment activity. It reduces dependence on FDI as a single proxy.")
     add_labelled_paragraph(doc, "Implementation implication", "All weighted PCI/RPCI values, score decompositions, and alpha/state sensitivity results must be recalculated. Table 8, Table 9, the reproducibility supplement, and the manuscript results narrative must be replaced and re-audited.")
-    add_labelled_paragraph(doc, "Reviewer-facing implication", "The approach may be conceptually attractive, but Regulatory Quality and Government Effectiveness receive contributions from more than one criterion. The 50/50 split and overlapping assignments require a theoretical or expert-elicitation basis; otherwise they may appear arbitrary or double-counted.")
+    add_labelled_paragraph(doc, "Reviewer-facing implication", "Regulatory Quality and Government Effectiveness receive contributions from more than one criterion. Without a theoretical, empirical, or expert-elicitation basis for the 50/50 split, the allocation may appear arbitrary, double-counted, or reverse-engineered. Version B is therefore not recommended on the present evidence.")
     doc.add_heading("Mapping", level=2)
     add_table(
         doc,
@@ -184,7 +192,7 @@ def main() -> None:
     doc.add_page_break()
     doc.add_heading("Version C - Governance-only weighted PCI with FDI reported separately", level=1)
     add_labelled_paragraph(doc, "Clarification applied", "The task brief did not specify what happens to EV after FDI is removed. For this version to be executable, EV is excluded from weighted PCI scoring. At each weight state, RC, EI and OF are renormalised to sum to one before they are mapped across the five WGI dimensions. FDI is retained as a separate descriptive robustness indicator.")
-    add_labelled_paragraph(doc, "What this version offers", "A governance-coherence index that avoids treating FDI as a proxy for economic viability. It creates a clean separation between governance alignment and observed investment flow.")
+    add_labelled_paragraph(doc, "What this version offers", "A governance-coherence index that avoids treating FDI as a proxy for economic viability. It creates a clean separation between country-level governance alignment, project-level economic viability, and observed jurisdiction-level investment flow. This layered separation is the most defensible and potentially most distinctive methodological position.")
     add_labelled_paragraph(doc, "Implementation implication", "This is not a small mapping edit. It changes weighted PCI/RPCI from a six-dimension, four-criterion construct into a five-dimension, three-criterion governance score. All Table 8 and Table 9 values must be recalculated, and a separate FDI robustness table or analysis must be introduced.")
     add_labelled_paragraph(doc, "Reviewer-facing implication", "It removes the most contestable proxy assumption, but the manuscript can no longer imply that weighted PCI directly integrates economic viability or FDI. The distinction between the four-criterion architecture and the three-criterion PCI scoring projection must be stated clearly.")
     doc.add_heading("Mapping", level=2)
@@ -201,7 +209,7 @@ def main() -> None:
     doc.add_heading("Proposed Section 6.5 paragraph", level=2)
     add_manuscript_text(
         doc,
-        "The weighted PCI/RPCI formulation is restricted to the five WGI governance dimensions. Economic Viability and FDI are excluded from the weighted governance score. For each weight state, the RC, EI and OF criterion weights are renormalised to sum to one; RC is divided equally between Regulatory Quality and Rule of Law, EI is assigned to Control of Corruption, and OF is divided equally between Government Effectiveness and Political Stability. Normalised UNCTAD FDI inflow is reported separately as a descriptive robustness indicator, permitting comparison between governance-weighted PCI/RPCI patterns and observed investment flow without combining them in a single composite score. This version therefore measures governance alignment rather than the broader four-criterion AIML-MRMS construct."
+        "The weighted PCI/RPCI formulation is restricted to the five WGI governance dimensions. Economic Viability and FDI are excluded from the country-level weighted governance score. For each weight state, the RC, EI and OF criterion weights are renormalised to sum to one; RC is divided equally between Regulatory Quality and Rule of Law, EI is assigned to Control of Corruption, and OF is divided equally between Government Effectiveness and Political Stability. EV remains part of the four-criterion AIML-MRMS framework and continues to inform project-level AHP/TOPSIS evaluation, where an economic-viability criterion is substantively appropriate. Normalised UNCTAD FDI inflow is reported separately as a descriptive investment-flow indicator, permitting comparison between governance-weighted PCI/RPCI patterns and observed capital flow without combining them in one composite score. This version therefore distinguishes country-level governance coherence, project-level economic viability, and jurisdiction-level investment flow."
     )
     doc.add_heading("Required downstream work", level=2)
     add_bullet(doc, "Define and test the RC/EI/OF renormalisation at every scenario and alpha/state combination.")
@@ -221,24 +229,25 @@ def main() -> None:
             ["Preserves four-criterion scoring", "Yes", "Yes", "No; PCI scoring uses RC/EI/OF"],
             ["New modelling assumptions", "FDI = operational EV proxy", "50/50 EV split and overlapping assignments", "EV exclusion and governance-only reinterpretation"],
             ["Implementation effort", "Low", "Medium-high", "High"],
-            ["Submission risk", "Proxy may be challenged", "Split may appear arbitrary", "Construct change may require broad rewriting"],
+            ["Submission risk", "Proxy assumption may be challenged", "Split may appear arbitrary or reverse-engineered", "Broader rewrite, but the proxy criticism is removed"],
         ],
         font_size=7,
     )
 
     doc.add_heading("Recommendation", level=1)
     doc.add_paragraph(
-        "For the current revision cycle, Version A is recommended because it is already implemented, reproducible, and consistent with the completed Option B tables. Its limitation can be managed by explicitly identifying FDI as an operational proxy and acknowledging that it does not exhaust the EV construct. Version B should be selected only if the supervisor can support the 50/50 split with theory or expert elicitation. Version C is appropriate if conceptual separation between governance alignment and investment flow is more important than preserving the present PCI construct, but it requires the broadest recalculation and manuscript revision."
+        "Version C is recommended as the most robust submission strategy. It removes the contestable FDI-to-EV proxy rather than attempting to defend it, and it creates a clear layered interpretation: RC/EI/OF determine country-level governance PCI/RPCI; EV remains active in project-level AHP/TOPSIS evaluation; and FDI is reported separately as observed investment flow. This requires full recalculation and broader manuscript revision, but effort is not the relevant scientific criterion. The relevant question is whether the method reduces exposure to another review-cycle challenge. Version B should be rejected unless independent theory, expert elicitation, or empirical calibration supports its split. Version A remains a reproducible fallback only if the supervisor deliberately accepts the residual proxy-assumption risk."
     )
 
     doc.add_heading("Approval requested", level=1)
-    add_bullet(doc, "Select Version A, B or C as the approved dimension-mapping method.")
-    add_bullet(doc, "If Version B is selected, confirm or replace the proposed 50/50 EV split.")
-    add_bullet(doc, "If Version C is selected, approve exclusion of EV from weighted PCI and the RC/EI/OF renormalisation rule.")
+    add_bullet(doc, "Approve Version C as the preferred method, or state why the residual proxy risk of Version A is acceptable.")
+    add_bullet(doc, "Approve the separation of country-level governance PCI/RPCI, project-level EV evaluation, and FDI as a separate investment-flow indicator.")
+    add_bullet(doc, "Approve exclusion of EV from weighted country-level PCI and the RC/EI/OF renormalisation rule.")
+    add_bullet(doc, "Treat Version B as unavailable unless a defensible basis for the split is supplied.")
     add_bullet(doc, "Confirm whether the mapping table belongs in Section 6.5 or in the main text with full detail repeated in the supplement.")
 
     note = doc.add_paragraph()
-    note.add_run("Prepared from the verified Option B implementation and the FDI-variation task brief. No Tables 8-9 have been recalculated pending methodological approval.").italic = True
+    note.add_run("Prepared from the verified Option B implementation, the FDI-variation task brief, and the revised acceptance-risk assessment. No Tables 8-9 have been recalculated pending methodological approval.").italic = True
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     doc.save(OUTPUT)
