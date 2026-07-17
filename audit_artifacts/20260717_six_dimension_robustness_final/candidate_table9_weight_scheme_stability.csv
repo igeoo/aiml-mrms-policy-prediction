@@ -1,0 +1,5 @@
+scheme,pci_spearman_vs_uniform,rpci_spearman_vs_uniform,mean_abs_pci_difference,mean_abs_rpci_difference
+uniform_primary,1.0,1.0,0.0,0.0
+pca_sensitivity,1.0,1.0,0.0010186111928131656,0.0008892973333105691
+entropy_sensitivity,0.9941176470588234,0.9941176470588234,0.017070209492001803,0.01823863529757785
+fraser_bivariate_sensitivity,1.0,1.0,0.0012444795285020491,0.0013126110735778487

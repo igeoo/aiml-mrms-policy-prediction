@@ -1,0 +1,9 @@
+evidence_block,test,result,interpretation
+Alternative weighting,PCA absolute-loading weights vs uniform,PCI rho=1.000; RPCI rho=1.000; mean |PCI diff|=0.0010,Rank ordering is highly stable; uniform weighting remains the transparent primary specification.
+Alternative weighting,Entropy weights vs uniform,PCI rho=0.994; RPCI rho=0.994; mean |PCI diff|=0.0171,Rank ordering is highly stable; uniform weighting remains the transparent primary specification.
+Alternative weighting,Fraser-correlation weights vs uniform,PCI rho=1.000; RPCI rho=1.000; mean |PCI diff|=0.0012,Rank ordering is highly stable; uniform weighting remains the transparent primary specification.
+Weight uncertainty,"10,000 Dirichlet weight perturbations",PCI rank rho median=0.997 (2.5%=0.991); RPCI median=0.994 (2.5%=0.988),Rank conclusions are robust to broad symmetric weight perturbation.
+Mining convergent validity,"WGI governance mean vs Fraser PPI, 2019-2024","Spearman rho=0.715; country-cluster bootstrap 95% CI 0.437-0.848; n=70, 14 countries",Strong association with a mining-specific policy-perception benchmark; not causal validation.
+Mining out-of-country validation,Nested leave-one-country-out Ridge prediction of Fraser PPI,R2=0.336; MAE=15.70; Spearman rho=0.602,Moderate out-of-country generalisation; coefficients are not used as primary weights because dimensions are collinear.
+Falsification / discriminant boundary,Governance plus controls vs controls for next-year general FDI,Incremental MAE improvement=-0.0067; country-cluster bootstrap 95% CI -0.0301 to 0.0160; P(improvement)=0.291,No reliable predictive gain. General FDI is rejected as the success target for this governance layer.
+Construct diagnostics,"Six WGI dimensions, pooled 2002-2024",Cronbach alpha=0.969; PC1=0.886; max VIF=23.12,Strong shared governance signal and high collinearity; this supports parsimonious aggregation but not unidimensionality or causal attribution.

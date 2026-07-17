@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": {
+    "six_dimensions": true,
+    "all_weight_schemes_sum_one": true,
+    "official_scores_not_sample_rescaled": true,
+    "complete_2024_cross_section": true,
+    "no_negative_2024_pci": true,
+    "uncertainty_rows_complete": true
+  },
+  "failed": [],
+  "primary_specification": "Uniform weighting across all six official WGI dimensions.",
+  "sensitivity_specifications": [
+    "pca_sensitivity",
+    "entropy_sensitivity",
+    "fraser_bivariate_sensitivity"
+  ],
+  "uncertainty_assumption": "Published WGI dimension standard errors sampled independently; this is an approximation because cross-dimension error covariance is unavailable.",
+  "construct_boundary": "Country-governance weighting is independent of project-level EV/RC/EI/OF AHP weights."
+}

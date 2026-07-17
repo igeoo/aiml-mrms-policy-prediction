@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "rows": 368,
+  "countries": 16,
+  "years": [
+    2002,
+    2024
+  ],
+  "eligible_next_year_fdi_rows": 319,
+  "outcome_definition": "Governance and controls at year t predict FDI inflow (% GDP) at t+1; target transformed with asinh.",
+  "causal_claim": "None. Predictive and convergent-validity analysis only.",
+  "source_sha256": {
+    "wdi_fdi_pct_gdp_2002_2024.json": "0cd87fe33aef15c9efe6639eb1b37299b004172eb2086a349923b72e338eae04",
+    "wdi_fdi_current_usd_2002_2024.json": "8f42bf2db885640e76de18dbfbed531ff4a060ee6f8aabc6cae6ca287790a0ab",
+    "wdi_mineral_rents_pct_gdp_2002_2024.json": "305ef11910edec44223c0bf88260140dff1a89f4c2803b4788873608302da0d0",
+    "wdi_gdp_per_capita_2002_2024.json": "adb39260439e32cf4cc07dbb7fcebdcd409d28e97f94d90c7a7edb611adc25a9",
+    "wdi_gdp_current_usd_2002_2024.json": "8d13d55cdea388f909bea4ef0954948cd51fc8e3262c7509fecb5f65e3ec6ea4"
+  },
+  "checks": {
+    "unique_country_year": true,
+    "wgi_rows_preserved": true,
+    "all_five_indicators_have_observations": true,
+    "future_target_is_within_country": true
+  }
+}

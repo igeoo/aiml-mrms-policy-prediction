@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "rows": 70,
+  "countries": 14,
+  "years": [
+    2019,
+    2024
+  ],
+  "excluded_for_no_fraser_observations": [
+    "NGA",
+    "SLE"
+  ],
+  "interpretation": "Convergent validity against mining-policy perceptions; not causal validation and not a classification task."
+}

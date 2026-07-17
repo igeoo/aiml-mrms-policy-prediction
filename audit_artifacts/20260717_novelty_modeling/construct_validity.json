@@ -1,0 +1,7 @@
+{
+  "cronbach_alpha_pooled": 0.9685421905189109,
+  "pca_pc1_explained_variance": 0.8857825990546727,
+  "pca_pc2_cumulative_variance": 0.935915555204608,
+  "maximum_vif": 23.121485113154,
+  "interpretation": "High internal consistency or PC1 dominance indicates shared governance signal, not proof of unidimensionality."
+}

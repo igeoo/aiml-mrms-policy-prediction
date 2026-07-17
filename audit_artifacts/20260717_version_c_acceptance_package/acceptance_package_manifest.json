@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "purpose": "Candidate replacement Tables 8 and 9 and consolidated supervisor brief",
+  "author_approval_required": true,
+  "outputs": {
+    "results\\tables\\table8_version_c_governance_coherence_2024.csv": "4e1ca232a88d8452ef6ead08b0c45a6626cc8b65e181f0779ea9faf2b948188d",
+    "results\\tables\\table9_version_c_validation_robustness.csv": "6da90bd73db6475000e68ffb7b6d4362ccff943593d1e1c6a6815da672aadb4d",
+    "audit_artifacts\\20260717_version_c_acceptance_package\\novelty_evidence_matrix.csv": "076de69b9df96f066fbcb42778faaebb553c726ae478c268d1b6a87d7953f53e",
+    "audit_artifacts\\20260717_version_c_acceptance_package\\version_c_acceptance_package.md": "f042631fe4d49f4824e4729733f6dcc0b45774893efd2a919e22432de6767e0f",
+    "output\\doc\\AIML_MRMS_Version_C_Comprehensive_Supervisor_Report.docx": "0b7614795f4e6211bd37da3ff259b047ae90da4fbe4cc3fc64e2a36e8d4bb009"
+  },
+  "claims": {
+    "adaptive_feedback_executed": false,
+    "causal_investment_effect": false,
+    "general_fdi_predictive_validation": false,
+    "mining_policy_convergent_validation": true,
+    "wgi_measurement_uncertainty_propagated": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "weight_distribution": "Dirichlet(10,10,10,10,10,10)",
+  "draws": 10000,
+  "pci_rank_spearman_median": 0.9970588235294118,
+  "pci_rank_spearman_lower95": 0.9911764705882352,
+  "rpci_rank_spearman_median": 0.9941176470588234,
+  "rpci_rank_spearman_lower95": 0.988235294117647
+}

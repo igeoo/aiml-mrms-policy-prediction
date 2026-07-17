@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "source_url": "https://www.worldbank.org/content/dam/sites/govindicators/doc/wgidataset_with_sourcedata-2025.xlsx",
+  "source_sha256": "25a2f9eabb90b0092973392c0b31571aa58b691cc5786292e504b52f693e1eb8",
+  "years": [
+    2002,
+    2024
+  ],
+  "countries": 16,
+  "country_years": 368,
+  "dimensions": {
+    "va": "voice_accountability",
+    "pv": "political_stability",
+    "ge": "government_effectiveness",
+    "rq": "regulatory_quality",
+    "rl": "rule_of_law",
+    "cc": "control_of_corruption"
+  },
+  "normalisation": "Official WGI absolute governance score divided by 100; no sample min-max scaling.",
+  "checks": {
+    "workbook_exists": true,
+    "unique_country_year_dimension": true,
+    "all_countries_present": true,
+    "all_dimensions_present": true,
+    "expected_row_count": true,
+    "no_missing_scores": true,
+    "scores_in_absolute_range": true,
+    "valid_confidence_intervals": true,
+    "positive_standard_errors": true
+  },
+  "score_range_0_1": [
+    0.094199491,
+    0.878274261
+  ],
+  "mean_standard_error_0_1": 0.033243428450634056
+}

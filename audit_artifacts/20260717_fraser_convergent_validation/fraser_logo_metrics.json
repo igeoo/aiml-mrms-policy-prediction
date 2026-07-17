@@ -1,0 +1,8 @@
+{
+  "n": 70,
+  "countries": 14,
+  "r2": 0.3359739856533821,
+  "mae": 15.698187503060412,
+  "spearman": 0.6016096579476861,
+  "validation": "Nested leave-one-country-out ridge regression"
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "checks": {
+    "eligible_rows": true,
+    "six_governance_dimensions": true,
+    "logo_predictions_complete": true,
+    "each_country_held_out": true,
+    "temporal_test_years": true,
+    "predictive_weights_sum_one": true
+  },
+  "failed": [],
+  "target": "asinh of FDI inflow (% GDP) at t+1",
+  "models": {
+    "controls": [
+      "mineral_rents_pct_gdp",
+      "log_gdp_per_capita",
+      "log_gdp"
+    ],
+    "governance_only": [
+      "control_of_corruption__score_0_1",
+      "government_effectiveness__score_0_1",
+      "political_stability__score_0_1",
+      "regulatory_quality__score_0_1",
+      "rule_of_law__score_0_1",
+      "voice_accountability__score_0_1"
+    ],
+    "governance_plus_controls": [
+      "control_of_corruption__score_0_1",
+      "government_effectiveness__score_0_1",
+      "political_stability__score_0_1",
+      "regulatory_quality__score_0_1",
+      "rule_of_law__score_0_1",
+      "voice_accountability__score_0_1",
+      "mineral_rents_pct_gdp",
+      "log_gdp_per_capita",
+      "log_gdp"
+    ]
+  },
+  "validation": [
+    "nested leave-one-country-out",
+    "2019-2023 temporal holdout trained through 2018"
+  ],
+  "causal_claim": "None"
+}

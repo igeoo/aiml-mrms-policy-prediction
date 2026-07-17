@@ -1,0 +1,8 @@
+{
+  "quantity": "MAE(controls) - MAE(governance_plus_controls), equal country weighting",
+  "estimate": -0.006715507901314734,
+  "ci95_lower": -0.030123049362915426,
+  "ci95_upper": 0.016035551648974015,
+  "bootstrap_probability_improvement": 0.2912,
+  "replicates": 5000
+}
