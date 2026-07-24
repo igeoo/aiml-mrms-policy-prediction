@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-07-17T14:39:55.257414+00:00",
+  "seed": 42,
+  "draws_per_scenario": 10000,
+  "rho_scenarios": [
+    0.0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "checks": {
+    "all_correlation_matrices_psd": true,
+    "scenarios_run": 4,
+    "draws_per_scenario": 10000,
+    "countries": 16,
+    "dimensions": 6,
+    "clipping_applied": true,
+    "uniform_weights_used": true,
+    "rho0_point_estimates_match_baseline": true,
+    "top_tier_stable_at_rho075": true,
+    "bottom_tier_stable_at_rho075": true,
+    "countries_with_material_rank_change": [
+      "MRT",
+      "SLE",
+      "ZAF",
+      "ZMB"
+    ]
+  },
+  "failed": [],
+  "assumption": "Equicorrelation across all six WGI dimension measurement errors. These are sensitivity scenarios, not estimates of the true error covariance. Observed WGI score correlation is not measurement-error correlation.",
+  "covariance_formula": "Sigma = D R D, where D = diag(published SE), R = equicorrelation(rho)",
+  "baseline_comparison": {
+    "locked_baseline_dir": "C:\\Users\\USER\\Documents\\python_codes\\super_project\\AIML_MRMS\\aiml_mrms_github_package\\aiml_mrms_github_package\\audit_artifacts\\20260717_six_dimension_robustness_final",
+    "max_abs_pci_lower95_difference": 0.0012390251957639375,
+    "max_abs_pci_upper95_difference": 0.0010780801478160185,
+    "max_abs_rpci_lower95_difference": 0.0014513826603432811,
+    "max_abs_rpci_upper95_difference": 0.0016218223728250436,
+    "note": "Differences arise because rho=0.00 uses multivariate normal (diagonal covariance) rather than independent univariate normal. Both are statistically equivalent but use different RNG code paths. Differences should be within MC sampling noise (~0.002 for 10k draws)."
+  },
+  "interpretation_notes": {
+    "interval_widening": "Positive error correlation is expected to widen mean-based aggregate intervals, but the effect on dispersion-penalized PCI/RPCI must be demonstrated, not assumed.",
+    "rank_stability": "4 countries show material rank-span changes (>=2 positions) across correlated-error scenarios."
+  }
+}
