@@ -1,0 +1,97 @@
+country,iso3,dimension,dimension_code,score_0_1,standard_error_0_1,ci90_lower_0_1,ci90_upper_0_1
+Botswana,BWA,Control of Corruption,control_of_corruption,0.6063009789999999,0.032128968,0.553609471,0.658992487
+Botswana,BWA,Government Effectiveness,government_effectiveness,0.594464824,0.0397703359999999,0.5292414729999999,0.659688175
+Botswana,BWA,Political Stability,political_stability,0.835276303,0.0391681829999999,0.771040483,0.899512122
+Botswana,BWA,Regulatory Quality,regulatory_quality,0.612018557,0.0300680589999999,0.56270694,0.6613301749999999
+Botswana,BWA,Rule of Law,rule_of_law,0.62335899,0.0252473149999999,0.581953393,0.664764586
+Botswana,BWA,Voice and Accountability,voice_accountability,0.6201711179999999,0.0257551899999999,0.577932606,0.66240963
+"Congo, Dem. Rep.",COD,Control of Corruption,control_of_corruption,0.171820286,0.031696416,0.119838163,0.223802409
+"Congo, Dem. Rep.",COD,Government Effectiveness,government_effectiveness,0.1841310199999999,0.03586191,0.125317487,0.2429445529999999
+"Congo, Dem. Rep.",COD,Political Stability,political_stability,0.296954723,0.037472948,0.2354990879999999,0.358410358
+"Congo, Dem. Rep.",COD,Regulatory Quality,regulatory_quality,0.345989483,0.024410505,0.3059562549999999,0.3860227109999999
+"Congo, Dem. Rep.",COD,Rule of Law,rule_of_law,0.289696892,0.0233618609999999,0.251383439,0.328010344
+"Congo, Dem. Rep.",COD,Voice and Accountability,voice_accountability,0.356079912,0.0243826429999999,0.316092378,0.396067446
+Ghana,GHA,Control of Corruption,control_of_corruption,0.439385075,0.0299078179999999,0.390336254,0.4884338959999999
+Ghana,GHA,Government Effectiveness,government_effectiveness,0.5249894549999999,0.034477864,0.468445758,0.581533151
+Ghana,GHA,Political Stability,political_stability,0.6609015699999999,0.0391681829999999,0.59666575,0.7251373889999999
+Ghana,GHA,Regulatory Quality,regulatory_quality,0.534456524,0.023602181,0.4957489479999999,0.573164101
+Ghana,GHA,Rule of Law,rule_of_law,0.578935634,0.02293577,0.541320971,0.6165502979999999
+Ghana,GHA,Voice and Accountability,voice_accountability,0.604252814,0.0248383049999999,0.563517994,0.644987635
+Guinea,GIN,Control of Corruption,control_of_corruption,0.240821006,0.031496877,0.189166128,0.2924758839999999
+Guinea,GIN,Government Effectiveness,government_effectiveness,0.340710252,0.03587136,0.281881222,0.399539282
+Guinea,GIN,Political Stability,political_stability,0.4816774559999999,0.0409699269999999,0.414486775,0.548868136
+Guinea,GIN,Regulatory Quality,regulatory_quality,0.4079898869999999,0.0244302189999999,0.367924328,0.4480554459999999
+Guinea,GIN,Rule of Law,rule_of_law,0.3720801739999999,0.023685632,0.333235737,0.410924611
+Guinea,GIN,Voice and Accountability,voice_accountability,0.356814842,0.024894996,0.315987048,0.3976426349999999
+Morocco,MAR,Control of Corruption,control_of_corruption,0.373557196,0.033254175,0.319020349,0.428094044
+Morocco,MAR,Government Effectiveness,government_effectiveness,0.547695462,0.0396198939999999,0.4827188359999999,0.612672088
+Morocco,MAR,Political Stability,political_stability,0.583648187,0.0400190649999999,0.51801692,0.649279454
+Morocco,MAR,Regulatory Quality,regulatory_quality,0.544419236,0.0307874959999999,0.493927743,0.59491073
+Morocco,MAR,Rule of Law,rule_of_law,0.506345517,0.0256779389999999,0.4642336969999999,0.548457338
+Morocco,MAR,Voice and Accountability,voice_accountability,0.4413009309999999,0.0258579099999999,0.3988939579999999,0.4837079039999999
+Mali,MLI,Control of Corruption,control_of_corruption,0.2800073819999999,0.031265901,0.2287313039999999,0.33128346
+Mali,MLI,Government Effectiveness,government_effectiveness,0.263132851,0.0357464549999999,0.2045086639999999,0.321757038
+Mali,MLI,Political Stability,political_stability,0.2334477579999999,0.0400190649999999,0.167816492,0.299079025
+Mali,MLI,Regulatory Quality,regulatory_quality,0.428404382,0.024410505,0.3883711539999999,0.46843761
+Mali,MLI,Rule of Law,rule_of_law,0.381301841,0.023586324,0.342620269,0.4199834129999999
+Mali,MLI,Voice and Accountability,voice_accountability,0.35478072,0.024894996,0.3139529259999999,0.3956085129999999
+Mozambique,MOZ,Control of Corruption,control_of_corruption,0.263621556,0.031496877,0.211966678,0.315276434
+Mozambique,MOZ,Government Effectiveness,government_effectiveness,0.374225793,0.035871359,0.315396763,0.433054822
+Mozambique,MOZ,Political Stability,political_stability,0.3586156789999999,0.0376900099999999,0.2968040629999999,0.420427295
+Mozambique,MOZ,Regulatory Quality,regulatory_quality,0.428211624,0.0244302189999999,0.388146065,0.468277183
+Mozambique,MOZ,Rule of Law,rule_of_law,0.3639876669999999,0.0233899959999999,0.3256280729999999,0.4023472609999999
+Mozambique,MOZ,Voice and Accountability,voice_accountability,0.392482884,0.024303551,0.3526250609999999,0.432340707
+Mauritania,MRT,Control of Corruption,control_of_corruption,0.289543958,0.03377695,0.2341497599999999,0.344938156
+Mauritania,MRT,Government Effectiveness,government_effectiveness,0.369276512,0.03875518,0.305718016,0.4328350079999999
+Mauritania,MRT,Political Stability,political_stability,0.563357484,0.041990948,0.494492328,0.632222639
+Mauritania,MRT,Regulatory Quality,regulatory_quality,0.4259024199999999,0.0255118019999999,0.384063065,0.467741775
+Mauritania,MRT,Rule of Law,rule_of_law,0.421030977,0.0245912719999999,0.3807012909999999,0.4613606629999999
+Mauritania,MRT,Voice and Accountability,voice_accountability,0.406539238,0.0261372569999999,0.363674137,0.4494043389999999
+Namibia,NAM,Control of Corruption,control_of_corruption,0.504157905,0.032128968,0.451466397,0.5568494119999999
+Namibia,NAM,Government Effectiveness,government_effectiveness,0.532721077,0.0397703359999999,0.467497726,0.597944429
+Namibia,NAM,Political Stability,political_stability,0.752334628,0.0391681829999999,0.688098808,0.816570447
+Namibia,NAM,Regulatory Quality,regulatory_quality,0.569904385,0.0300680589999999,0.520592768,0.6192160029999999
+Namibia,NAM,Rule of Law,rule_of_law,0.6260735479999999,0.0252473149999999,0.584667952,0.667479144
+Namibia,NAM,Voice and Accountability,voice_accountability,0.627395218,0.0257551899999999,0.585156706,0.669633729
+Nigeria,NGA,Control of Corruption,control_of_corruption,0.252937973,0.030914649,0.2022379489999999,0.303637997
+Nigeria,NGA,Government Effectiveness,government_effectiveness,0.317683438,0.037392249,0.256360149,0.379006727
+Nigeria,NGA,Political Stability,political_stability,0.316874346,0.0369766449999999,0.256232649,0.3775160429999999
+Nigeria,NGA,Regulatory Quality,regulatory_quality,0.448748237,0.02714047,0.404237866,0.4932586089999999
+Nigeria,NGA,Rule of Law,rule_of_law,0.396344736,0.023878822,0.357183467,0.435506004
+Nigeria,NGA,Voice and Accountability,voice_accountability,0.441328988,0.0246803979999999,0.4008531339999999,0.481804841
+Senegal,SEN,Control of Corruption,control_of_corruption,0.501429568,0.031265901,0.4501534909999999,0.552705646
+Senegal,SEN,Government Effectiveness,government_effectiveness,0.558984038,0.0357464559999999,0.5003598499999999,0.617608225
+Senegal,SEN,Political Stability,political_stability,0.61990291,0.0400190649999999,0.554271644,0.685534177
+Senegal,SEN,Regulatory Quality,regulatory_quality,0.510517148,0.024410505,0.47048392,0.550550376
+Senegal,SEN,Rule of Law,rule_of_law,0.5344212859999999,0.023586324,0.495739714,0.5731028579999999
+Senegal,SEN,Voice and Accountability,voice_accountability,0.571306812,0.024894996,0.530479018,0.6121346049999999
+Sierra Leone,SLE,Control of Corruption,control_of_corruption,0.3363951759999999,0.031265901,0.2851190979999999,0.3876712539999999
+Sierra Leone,SLE,Government Effectiveness,government_effectiveness,0.325361337,0.0357464549999999,0.26673715,0.383985524
+Sierra Leone,SLE,Political Stability,political_stability,0.582050494,0.0406915699999999,0.515316319,0.648784668
+Sierra Leone,SLE,Regulatory Quality,regulatory_quality,0.3816201979999999,0.024410505,0.34158697,0.4216534259999999
+Sierra Leone,SLE,Rule of Law,rule_of_law,0.425322345,0.023586324,0.3866407729999999,0.464003917
+Sierra Leone,SLE,Voice and Accountability,voice_accountability,0.4787151619999999,0.024894996,0.4378873679999999,0.519542955
+Tanzania,TZA,Control of Corruption,control_of_corruption,0.419016869,0.031265901,0.367740791,0.470292947
+Tanzania,TZA,Government Effectiveness,government_effectiveness,0.4565406129999999,0.0357464559999999,0.3979164249999999,0.5151648
+Tanzania,TZA,Political Stability,political_stability,0.592394684,0.0400190649999999,0.526763417,0.6580259509999999
+Tanzania,TZA,Regulatory Quality,regulatory_quality,0.464192385,0.024410505,0.424159157,0.504225613
+Tanzania,TZA,Rule of Law,rule_of_law,0.4802507869999999,0.023586324,0.4415692149999999,0.518932359
+Tanzania,TZA,Voice and Accountability,voice_accountability,0.455602425,0.024894996,0.414774632,0.496430219
+South Africa,ZAF,Control of Corruption,control_of_corruption,0.439726469,0.032379753,0.386623673,0.492829264
+South Africa,ZAF,Government Effectiveness,government_effectiveness,0.4694781189999999,0.03994257,0.403972304,0.534983934
+South Africa,ZAF,Political Stability,political_stability,0.553527432,0.039416241,0.488884798,0.618170067
+South Africa,ZAF,Regulatory Quality,regulatory_quality,0.539146724,0.0301049109999999,0.4897746699999999,0.588518778
+South Africa,ZAF,Rule of Law,rule_of_law,0.572693915,0.0253692169999999,0.531088399,0.61429943
+South Africa,ZAF,Voice and Accountability,voice_accountability,0.6747814389999999,0.0257551899999999,0.632542927,0.7170199509999999
+Zambia,ZMB,Control of Corruption,control_of_corruption,0.386078994,0.031496877,0.334424116,0.4377338719999999
+Zambia,ZMB,Government Effectiveness,government_effectiveness,0.409757367,0.03587136,0.350928337,0.468586397
+Zambia,ZMB,Political Stability,political_stability,0.641728259,0.0402837779999999,0.5756628629999999,0.707793654
+Zambia,ZMB,Regulatory Quality,regulatory_quality,0.482283671,0.0244302189999999,0.442218112,0.522349231
+Zambia,ZMB,Rule of Law,rule_of_law,0.4730645779999999,0.023685632,0.434220141,0.511909015
+Zambia,ZMB,Voice and Accountability,voice_accountability,0.497157692,0.024894996,0.456329899,0.537985486
+Zimbabwe,ZWE,Control of Corruption,control_of_corruption,0.225194258,0.031496877,0.173539379,0.276849136
+Zimbabwe,ZWE,Government Effectiveness,government_effectiveness,0.32136983,0.035871359,0.2625407999999999,0.380198859
+Zimbabwe,ZWE,Political Stability,political_stability,0.485183369,0.037690009,0.4233717529999999,0.5469949839999999
+Zimbabwe,ZWE,Regulatory Quality,regulatory_quality,0.362828944,0.0244302189999999,0.322763385,0.402894504
+Zimbabwe,ZWE,Rule of Law,rule_of_law,0.361235607,0.023389997,0.322876012,0.399595201
+Zimbabwe,ZWE,Voice and Accountability,voice_accountability,0.348037239,0.024303551,0.308179415,0.3878950619999999
