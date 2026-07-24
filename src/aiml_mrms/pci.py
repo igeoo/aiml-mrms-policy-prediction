@@ -36,21 +36,3 @@ def compute_pci_table(df):
         })
     return pd.DataFrame(rows)
 
-def pci_gain_scenarios(base_pci_table):
-    gains = {
-        "NGA": {"standalone_mcdm": 0.006, "standalone_ai": 0.009, "static_ai_mcdm": 0.019, "aiml_mrms_full_adaptive": 0.030},
-        "ZAF": {"standalone_mcdm": 0.004, "standalone_ai": 0.006, "static_ai_mcdm": 0.009, "aiml_mrms_full_adaptive": 0.017},
-    }
-    rows = []
-    for _, row in base_pci_table.iterrows():
-        for cfg, gain in gains.get(row["iso3"], gains["NGA"]).items():
-            rows.append({
-                "iso3": row["iso3"],
-                "configuration": cfg,
-                "pci_c1": row["pci"],
-                "pci_c3": row["pci"] + gain,
-                "rpci_c1": row["rpci"],
-                "rpci_c3": row["rpci"] + 0.85 * gain,
-                "delta_pci": gain,
-            })
-    return pd.DataFrame(rows)
