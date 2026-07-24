@@ -1,0 +1,22 @@
+Feature / Capability,"Tafur et al. (2022)
+AHP-TOPSIS petroleum
+investment risk, S. America","Tang et al. (2023)
+AHP/entropy-TOPSIS-GRA
+oil & gas, Belt & Road","Li et al. (2020)
+Entropy-TOPSIS
+resources, Belt & Road","MineHutte / Mining IQ
+World Risk Insights
+(commercial)","AIML-MRMS Version C
+(this study)"
+Country-level governance screening separated from project-level MCDM,No,No,No,Yes (partially),Yes
+Uses all six official WGI dimensions (not a subset or ad hoc selection),No (uses ad hoc criteria),No (uses composite indices),No (uses composite indices),Not disclosed,Yes
+Propagates published WGI measurement uncertainty (standard errors),No,No,No,Not disclosed,Yes
+Tests correlated measurement-error sensitivity (equicorrelation scenarios),No,No,No,Not disclosed,Yes
+"Alternative weighting robustness (PCA, entropy, Fraser-correlation, Dirichlet perturbation)",No,Partial (AHP + entropy comparison),No (entropy only),Not disclosed,Yes
+Temporal rank stability analysis (2002-2024),No,No,No,Not disclosed,Yes
+Leakage-free convergent validation against mining-specific benchmark (Fraser PPI),No,No,No,Proprietary,Yes
+Nested leave-one-country-out cross-validation design,No,No,No,Not disclosed,Yes
+Explicit null-result reporting (general FDI construct-boundary test),No,No,No,No,Yes
+Reproducible open-source pipeline with deterministic seeds,Not reported,Not reported,Not reported,No (proprietary),Yes
+Country-cluster bootstrap confidence intervals,No,No,No,Not disclosed,Yes
+"Construct diagnostics (Cronbach alpha, PCA, VIF) reported transparently",No,No,No,Not disclosed,Yes
